@@ -186,7 +186,7 @@ u{
 	border-style:none;
 }
 
-#one , #two, #three, #four {
+.right {
 	text-align:right;
 
 }
@@ -194,13 +194,13 @@ u{
 #makeoffer{
 	text-align:center;
 	height:45%;
-	width:28%;
 	border-radius:8px;
 	background-color:#10ffc1;
 	text-align:center;
 	font-size:1.5em;
 	font-family:Oswald;
 	border-style:none;
+	margin-left:-63%;
 	
 
 }
