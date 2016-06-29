@@ -5,34 +5,28 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/pages.css" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed' rel='stylesheet' type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-  </head>
-  <body ng-app="">
+     </head>
+  <body>
 
-
- 
   <h1 class="welcome"> Hello! </h1>
-  <span id='logout' onclick="location.href='login.html'">Log Out</span>
-  <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+  <form action='/logout' method='get'><button id='logout' type='submit'>Log Out</button></form>
+  
   <div class="listing">
   <span class="need" onclick="location.href='postneed.html'">Need A Ride?</span>
    <span class="offer" onclick="location.href='postoffer.html'">Offer A Ride</span>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<u><h1 class="title">Active Ride Requests</h1></u>
 
-<div id="requests" ng-app="">
-<span class="items" ng-repeat="x in From, To, DeptTime, ArvTime "><img src="img/smallcancel.png" class="cancel" ></span>
+<h1 class='title' id='push'>Active Ride Requests</h1>
+<h1 class='title'>Active Ride Offers</h1>
+
+<div class="list" id='extra_margin'>
+<div class="items"><img src="img/smallcancel.png" class="cancel" ></div>
+</div>
+
+<div class="list">
+<div class="items"><img src="img/smallcancel.png" class="cancel" ><img src="img/results.png" class="results_link" ></div>
+</div>
+
 
   </body>
 </html>
