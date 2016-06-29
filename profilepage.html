@@ -20,11 +20,22 @@
 <h1 class='title'>Active Ride Offers</h1>
 
 <div class="list" id='extra_margin'>
-<div class="items"><img src="img/smallcancel.png" class="cancel" ></div>
+<div class="items">
+<form method='get' action='/delete_request'>
+<input type='image' src="img/smallcancel.png" class="cancel" alt='Submit'>
+</form>
+</div>
 </div>
 
 <div class="list">
-<div class="items"><img src="img/smallcancel.png" class="cancel" ><img src="img/results.png" class="results_link" ></div>
+<div class="items">
+<form method='get' action='/delete_request'>
+<input type='image' src="img/smallcancel.png" class="cancel" alt='Submit' >
+</form>
+<form method='post' action='/load_results'>
+<input type='image' src="img/results.png" class="results_link" alt='Submit'>
+</form>
+</div>
 </div>
 
 
