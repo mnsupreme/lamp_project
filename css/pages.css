@@ -16,7 +16,22 @@ html{
 	font-family:Oswald;
 	border-style:none;
 	position:absolute;
-	left:30%;
+	left:15%;
+
+}
+
+#register{
+	text-align:center;
+	height:45%;
+	width:28%;
+	border-radius:8px;
+	background-color:#FF9933;
+	text-align:center;
+	font-size:1.5em;
+	font-family:Oswald;
+	border-style:none;
+	position:absolute;
+	left:50%;
 
 }
 
